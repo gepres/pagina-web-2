@@ -1,0 +1,31 @@
+//aqui se guardaran las varibles : colores , tipografia
+//import tipografia
+@import url('https://fonts.googleapis.com/css?family=BenchNine:300,400,700|Dorsa|PT+Sans+Narrow:400,700|Roboto:300,400,700');
+//importar iconos
+@import url("https://file.myfontastic.com/8D5guoU3ZrVjJnsgmp9x5C/icons.css");
+
+//fuentes
+$dorsa:'Dorsa', sans-serif;
+$pt-sans:'PT Sans Narrow', sans-serif;
+$roboto:'Roboto', sans-serif;
+$bechnine:'BenchNine', sans-serif;
+
+//grusor de letro
+$light: 300;
+$regular: 400;
+$bold:700;
+
+
+//colores
+$blanco:#fff;
+$negro:#000;
+$negro-medio:hsla(0, 0%, 16%, 1.0);
+$gris-oscuro:hsla(0, 0%, 40%, 1.0);
+$gris:hsla(30, 3%, 73%, 1.0);
+$gris-palido:hsla(0, 3%, 94%, 1.0);
+
+
+
+@function img($img) {
+  @return url('../img/#{$img}');
+}
